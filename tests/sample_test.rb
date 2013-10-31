@@ -1,0 +1,5 @@
+class SampleTest < Test
+
+
+  
+end
