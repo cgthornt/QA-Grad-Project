@@ -1,0 +1,21 @@
+# General configuration
+
+# You can change this to 'ff' or 'firefox' if you want
+browser: chrome
+
+site:
+
+  # MUST HAVE A TRAILING SLASH!
+  base_url: "http://sod73.asu.edu/~jitt/NewJITT/JITT/"
+
+
+users:
+  admin:
+    username: shirlT
+    password: admin1
+  professor:
+    username: brusu
+    password: prof1
+  student:
+    username: bratt
+    password: bratt
