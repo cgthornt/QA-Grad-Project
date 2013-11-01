@@ -1,4 +1,4 @@
-# Assertions are kept in a seperate module!
+# Assertions are kept in a separate module!
 
 module Assertions
 

@@ -1,7 +1,7 @@
 # General configuration
 
 # You can change this to 'ff' or 'firefox' if you want
-browser: chrome
+browser: ff
 
 site:
 
