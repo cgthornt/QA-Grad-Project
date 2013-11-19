@@ -16,6 +16,7 @@ GEM
     i18n (0.6.5)
     minitest (4.7.5)
     multi_json (1.8.2)
+    rake (10.1.0)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
@@ -50,6 +51,7 @@ PLATFORMS
 DEPENDENCIES
   activesupport (~> 4.0.0)
   minitest (~> 4.2)
+  rake
   settingslogic (~> 2.0.9)
   watir (~> 5.0.0)
   watir-rspec

@@ -4,6 +4,13 @@ require File.join(File.dirname(__FILE__), '..', 'lib', 'include')
 require "watir/rspec"
 
 RSpec.configure do |config|
+
+  # Use color in STDOUT
+  config.color_enabled = true
+
+  # Use color not only in STDOUT but also in pagers and files
+  config.tty = true
+
   # Use Watir::RSpec::HtmlFormatter to get links to the screenshots, html and
   # all other files created during the failing examples.
   config.add_formatter(:progress) if config.formatters.empty?

@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+gem 'rake'
 gem 'watir-rspec'
 gem 'activesupport', '~> 4.0.0'
 gem 'minitest', '~> 4.2'
