@@ -1,3 +1,7 @@
+# This file contains tests for logging in and out. Since user authentication is shared amongst all users,
+# tests for this are placed inside the 'all' directory
+#
+
 require "spec_helper"
 
 describe 'Login' do

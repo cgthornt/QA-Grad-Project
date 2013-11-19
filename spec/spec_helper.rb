@@ -1,3 +1,7 @@
+# This should be included in each spec file to ensure consistency amongst all tests.
+#
+# For example, this file will automatically set up the browser (i.e. load up firefox) when each test begins.
+
 require File.join(File.dirname(__FILE__), '..', 'lib', 'include')
 
 # Configuration for watir-rspec
