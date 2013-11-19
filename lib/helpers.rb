@@ -3,6 +3,19 @@ require 'ostruct'
 module Helpers
   extend ActiveSupport::Concern
 
+  # Short-hands
+  def btn(item)
+    return button(item) if item.is_a?(Hash)
+    return button(name: item.to_s)
+  end
+
+
+  def dropdown(item)
+    return browser.select_list(item) if item.is_a? Hash
+    return browser.select_list(name: item.to_s)
+  end
+
+
   # Resets the browser session without actually closing the browser. Clears cookies
   def reset!
     browser.cookies.clear
@@ -12,6 +25,10 @@ module Helpers
   # Navigates to the root URL
   def home!
     goto Settings.site.base_url
+  end
+
+  def go(url)
+    browser.go url
   end
 
   # Gets a User object, with the username/password combination contained in the application
