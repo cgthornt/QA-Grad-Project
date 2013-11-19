@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+
+gem 'watir-rspec'
 gem 'activesupport', '~> 4.0.0'
 gem 'minitest', '~> 4.2'
 gem 'watir', '~> 5.0.0'

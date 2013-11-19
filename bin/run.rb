@@ -2,7 +2,7 @@
 # Runs test cases!
 
 # This loads all of our gems and allows us to access classes / modules in the lib dir
-require './' + File.join(File.dirname(__FILE__), '..', 'lib', 'include.rb')
+require './' + File.join(File.dirname(__FILE__), '..', 'include.rb')
 
 # Auto-run tests
 require 'minitest/autorun'

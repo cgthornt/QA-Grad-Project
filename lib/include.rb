@@ -12,7 +12,4 @@ module Include; end
 
 
 # Autoload the lib dir and tests dir
-ActiveSupport::Dependencies.autoload_paths << File.dirname(__FILE__)
-ActiveSupport::Dependencies.autoload_paths << File.join(File.dirname(__FILE__), '..', 'tests')
-
-require 'minitest/autorun'
+ActiveSupport::Dependencies.autoload_paths << File.join(File.dirname(__FILE__))
