@@ -7,7 +7,7 @@ RSpec.configure do |config|
   # Use Watir::RSpec::HtmlFormatter to get links to the screenshots, html and
   # all other files created during the failing examples.
   config.add_formatter(:progress) if config.formatters.empty?
-  # config.add_formatter(Watir::RSpec::HtmlFormatter)
+  config.add_formatter(Watir::RSpec::HtmlFormatter)
 
   # Open up the browser for each example.
   config.before :all do
